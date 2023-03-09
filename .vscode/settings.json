@@ -1,0 +1,8 @@
+{
+    "Codegeex.DisabledFor": {
+        "html": true,
+        "css": true,
+        "javascript": true
+    },
+    "editor.guides.bracketPairs": true
+}

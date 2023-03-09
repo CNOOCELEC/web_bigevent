@@ -39,7 +39,7 @@ $(function() {
             password: $('.reg-box [name=password]').val(),
         };
         $.ajax({
-            type: "post",
+            method: "post",
             url: "/api/reguser",
             data: data,
             dataType: "json",
@@ -61,7 +61,7 @@ $(function() {
     $('#form_login').submit(function(e) {
         e.preventDefault();
         $.ajax({
-            type: "post",
+            method: "post",
             url: "/api/login",
             data: $(this).serialize(),
             dataType: "json",
